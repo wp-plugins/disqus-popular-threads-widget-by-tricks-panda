@@ -1,4 +1,4 @@
-=== Disqus Popular Threads Widget By Tricks Panda ===
+=== Popular Threads Widget For Disqus ===
 Plugin URI: http://www.trickspanda.com
 Description: Add a Disqus popular threads widget to your WordPress blog's sidebar.
 Version: 1.0
