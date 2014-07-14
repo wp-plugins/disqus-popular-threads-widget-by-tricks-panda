@@ -1,7 +1,7 @@
 === Popular Threads Widget For Disqus ===
 Plugin URI: http://www.trickspanda.com
 Description: Add a Disqus popular threads widget to your WordPress blog's sidebar.
-Version: 1.0
+Version: 1.1
 Requires at least: 2.5
 Tested up to: 3.9
 Contributors: hardeepasrani
@@ -28,3 +28,8 @@ We used Disqus' original popular threads script for the widget.
 == Screenshots ==
 
 1. Disqus Popular Threads Widget On Back-end.
+
+== Changelog ==
+
+= 1.1 =
+* Added an option to change widget title.
