@@ -3,7 +3,7 @@
 Plugin Name: Popular Threads Widget For Disqus
 Plugin URI: http://www.trickspanda.com
 Description: Add a Disqus popular threads widget to your WordPress blog's sidebar
-Version: 1.2
+Version: 1.3
 Author: Hardeep Asrani
 Author URI: http://www.hardeepasrani.com
 */
@@ -24,8 +24,8 @@ class tp_disquspopularthreads extends WP_Widget
     {
         $instance = wp_parse_args((array) $instance);
         
-        if ($instance['threadnumbers'] == NULL) {
-            $instance['threadnumbers'] = "5";
+        if(!isset($instance['threadnumbers']) || empty($instance['threadnumbers'])) { 
+            $instance['threadnumbers'] = "5"; 
         }
 ?>
 
